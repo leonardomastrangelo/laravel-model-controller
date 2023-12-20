@@ -4,8 +4,9 @@
 
 @section('content')
 <main>
-    <h1>Home page</h1>
-    <a href="{{route('movies.index')}}">
-    see all movies</a>
+    <h1>
+        Home page
+    </h1>
+    
 </main>
 @endsection
