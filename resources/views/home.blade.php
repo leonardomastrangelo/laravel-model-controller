@@ -39,5 +39,37 @@
             </div>
         </div>
     </section>
+
+    <section id="home_books">
+        <div class="container">
+            {{-- SECTION TITLE --}}
+            <h2>
+                Popular Books
+            </h2>
+            {{-- BOOKS CONTAINER --}}
+            <div class="row py-5">
+                @foreach ($books as $book)
+                <div class="col-3">
+                    {{-- book->image --}}
+                    <div>
+                        <a href="{{route('books.show', $book->id)}}">
+                            <img src="{{$book->cover_image}}" alt="{{$book->title}}" class="my-fluid">
+                        </a>
+                    </div>
+                    {{-- movie->title --}}
+                    <h3>
+                        {{$book->title}}
+                    </h3>
+                </div>
+                @endforeach
+            </div>
+            {{-- CALL TO ACTION --}}
+            <div class="text-center">
+                <a href="{{route('books.index')}}" class="btn btn-primary">
+                    See All Books
+                </a>
+            </div>
+        </div>
+    </section>
 </main>
 @endsection

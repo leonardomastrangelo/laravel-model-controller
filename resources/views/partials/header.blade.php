@@ -11,7 +11,7 @@
           <a class="nav-link active" aria-current="page" href="{{route('movies.index')}}">Movies</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Books</a>
+          <a class="nav-link" href="{{route('books.index')}}">Books</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>

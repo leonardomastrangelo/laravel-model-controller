@@ -28,7 +28,7 @@ header {
     
 }
 
-#home_movies {
+#home_movies, #home_books {
     background-color: $brand_tertiary;
     padding: 50px 0;
     h2 {
@@ -42,7 +42,7 @@ header {
     }
 }
 
-#movies {
+#movies, #books {
     background-color: $brand_tertiary;
     padding: 50px 0;
     h2 {
@@ -67,9 +67,12 @@ header {
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
+    p {
+        padding: 0 20px;
+    }
 }
 
-#movie {
+#movie, #book {
     background-color: $brand_tertiary;
     padding: 50px 0;
     ul {
@@ -84,6 +87,13 @@ header {
             font-size: 1.4em;
             font-weight: 600;
         }
+    }
+    p {
+        background-color: $brand_fifth;
+        padding: 70px;
+        border-radius: 30%;
+        border: 2px solid salmon;
+        line-height: 2em;
     }
 }
 footer {
