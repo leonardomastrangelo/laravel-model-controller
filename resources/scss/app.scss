@@ -42,6 +42,32 @@ header {
     }
 }
 
+#movies {
+    background-color: $brand_tertiary;
+    padding: 50px 0;
+    h2 {
+        font-size: 3em;
+        margin: 0;
+        text-align: center;
+    }
+    h3 {
+        padding: 10px 0;
+        margin: 0;
+        text-align: center;
+        background-color: $brand_secondary;
+    }
+    h4 {
+        font-size: 1.2em;
+        margin: 0;
+        text-align: center;
+    }
+    .my_card {
+        background-color: $brand_fourth;
+        height: 100%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}
 footer {
     background-color: $brand_secondary;
     padding: 20px 0;
