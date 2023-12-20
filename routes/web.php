@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 /* 
-|-> use the static method 'home' of HomeController to view homepage
+|-> use the static method 'home' of HomeController to view homepage taking only 4 movies
 */
 Route::get('/', [HomeController::class, 'home'])->name('home');
 
