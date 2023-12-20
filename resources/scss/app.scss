@@ -68,6 +68,24 @@ header {
         border-bottom-right-radius: 10px;
     }
 }
+
+#movie {
+    background-color: $brand_tertiary;
+    padding: 50px 0;
+    ul {
+        background-color: $brand_fifth;
+        padding: 70px;
+        border-radius: 30%;
+        border: 2px solid salmon;
+    }
+    li {
+        padding: 20px 0;
+        span {
+            font-size: 1.4em;
+            font-weight: 600;
+        }
+    }
+}
 footer {
     background-color: $brand_secondary;
     padding: 20px 0;
